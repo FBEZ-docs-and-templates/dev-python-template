@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 # Copy files from local
 COPY src /app
 
-CMD ["python","test.py"]
+CMD ["python","main.py"]
